@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundacion de idiomas</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script type="text/javascrpit" src="/js/ejemplo.js"></script>
+    <script type="text/javascript" src="js/jquery-1.12.1.js" ></script>
+
+
+    <script type="text/javascript">
+
+        $(function(){
+            //indica el nombre del archivo a cargar
+            $("#principal2").load("file/inicio.html");
+
+        });
+
+    </script>
+
+    <script type="text/javascript">
+      
+        $(document).ready(function(){
+
+            $("#principall").click(function(){
+                $("#principal2").load("file/inicio.html");
+            });
+
+            $("#idiomas").click(function(){
+                $("#principal2").load("file/idiomas.html");
+            });
+
+            $("#Tienda").click(function(){
+                $("#principal2").load("file/pago.html");
+            });
+
+            $("#contacto").click(function(){
+                $("#principal2").load("file/formulario.html");
+            });
+
+        });
+
+    </script>
+
+</head>
+<body>
+    <div id="contenedor">
+
+    <header>
+        <h1>Novaty Lenguage</h1>
+    </header>
+
+        <nav><!--Barra de navegación-->
+            <ul>
+                <!-- link con javascript -->
+                <li><a href="#"  id="principall">INICIO</a></li>
+                <li><a href="#"  id="idiomas">IDIOMAS</a></li>
+                <li><a href="Pagina Web/galeria.html" >GALERIA DE IMAGENES</a></li>
+                <li><a href="#"  id="Tienda">TIENDA VIRTUAL</a></li>
+                <li><a href="#"  id="contacto">CONTACTO</a></li>
+                
+
+            </ul>
+        </nav>
+
+       
+
+        <article><!--Este sera el inicio-->
+
+
+            <div id="slider">
+
+                <!-- menu de imagenes -->
+    
+                <ul class="slider">
+                    <li id="slider1">
+                        <img src="img/logo.png" alt="imagen slider 1">
+                    </li>
+                    <li id="slider2">
+                        <img src="img/imagen2.jpg" alt="imagen slider 2">
+                    </li>
+                    <li id="slider3">
+                        <img src="img/imagen3.jpg" alt="imagen slider 3">
+                    </li>}
+                    <li id="slider4">
+                        <img src="img/imagen1.jpg" alt="imagen slider 4">
+                    </li>
+                </ul>
+    
+                <!-- menu para cambiar las imagenes -->
+    
+                <ul class="menu">
+                    <li>
+                        <a href="#slider1">1</a>
+                    </li>
+                    <li>
+                        <a href="#slider2">2</a>
+                    </li>
+                    <li>
+                        <a href="#slider3">3</a>
+                    </li>
+                    <li>
+                        <a href="#slider4">4</a>
+                    </li>
+                </ul>
+
+                
+    
+            </div>
+            
+        </article>
+
+        <section id="principal2">
+            
+        </section>
+
+        
+        <br>
+        
+        <footer>   
+            <br>
+            <h3>©Novaty Lenguage todos los derechos reservados. Dylan Alvarez & Brayan Muñoz
+                <br>
+                    Email: <a href="bryanmzr183@gamil.com">bryanmzr183@gmail.com</a>
+                <br>
+                    cel:(+57) 3122697877
+                <br>
+                    Medellin-Colombia
+            </h3>
+        </footer>
+    </div>
+    
+</body>
+</html>

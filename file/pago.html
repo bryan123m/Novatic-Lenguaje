@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundacion de idiomas</title>
+    <link rel="stylesheet" href="/Pagina Web/css/css formularios.css">
+
+    <script type="text/javascript">
+      
+        $(document).ready(function(){
+
+            $("#pagar").click(function(){
+                $("#pago").load("file/compra.html");
+            });
+
+        });
+
+    </script>
+
+    <script type="text/javascript">
+
+        function mostraralerta(){
+            alert("Hizo click");
+        }
+
+        function hacerclick(){
+            document.getElementsByClassName('p')[0].onclick=mostraralerta;
+        }
+        
+        window.onload=hacerclick;
+
+    </script>
+
+
+</head>
+<body>
+    <div id="contenedor">
+            
+        <br>
+        <section id="pago"><!--Este sera el contenido del formulario-->
+            <div class="container">
+                <form action="" class="form">
+                    <div class="form-header">
+                        <h1 class="form-title">I<span>nformación de pago</span></h1>
+                    </div>
+
+                    <label for="nombre" class="form-label">Nombres completos del estudiante</label>
+                    <input type="text" id="nombre" class="form-input" placeholder="Escriba sus nombre">
+
+                    <label for="apellido" class="form-label">Correo electronico:</label>
+                    <input type="text" id="apellido" class="form-input" placeholder="Correo electronico">
+
+                    <label for="ciudad" class="form-label">Nombre titular de la tarjeta:</label>
+                    <input type="text" id="ciudad" class="form-input" placeholder="Nombre titular de la tarjeta">
+
+                    <label for="correo" class="form-label">Numero de tarjeta:</label>
+                    <input type="text" id="correo" class="form-input" placeholder="MM/AA CVC">
+                    
+                    <label for="celular" class="form-label">Valor a pagar:</label>
+                    <input type="text" id="celular" class="form-input" placeholder="Digite la cantidad">
+               
+                    <div id="boton">
+                        <a href="#"  id="pagar" onclick="alert('Gracias por su compra')">Pagar</a>
+                    </div>
+                    
+                </form>
+            </div>
+
+        </section>
+
+    </div>
+    
+</body>
+</html>
