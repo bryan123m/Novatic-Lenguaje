@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #eaeaea;
+}
+
+#contenedor{
+    width: 1500px;
+    height: 500px;
+    margin: auto;
+}
+
+
+
+h2{
+    font-style: italic;
+    text-shadow: 2px 2px 4px #000000;
+    line-height: 50px;
+}
+
+p{
+    font-style: italic;
+}
+
+
+
+
+ 
+
+/*FORMULARIO DE CONTACTO & PAGO*/ 
+.container .form .form-header .form-title{
+    font-family: 'Lobster', Georgia, Times, serif;
+    color: #f08a5d;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px 0px;
+}
+.container .form .form-header .form-title span{
+    color: white;
+}
+.container .form {
+    background: #112d4e;
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    padding: 30px 35px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.container .form .form-label{
+    display: block;
+    color:white;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+    
+}
+.container .form .form-input, .form-textarea{
+    background: #ffeadb;
+    font-family: 'Lobster', Georgia, Times, serif;
+    border: none;
+    outline: none;
+    border-bottom: 4px solid #ff851b;
+    width: 100%;
+    padding: 12px 0px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+.container .form .form-input, .form-textarea{
+    resize: vertical;
+    min-height: 20px;
+}
+
+.container .form .btn-submit{
+    width: 100%;
+    font-family: monospace;
+    outline: none;
+    background: #ff851b;
+    font-size: 25px;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+}
+
+section a{
+    text-decoration:none;
+    font-weight:600;
+    font-size:20px;
+    color:#ffffff;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:#ff851b;
+}
+
+#boton{
+    padding-top: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,340 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #eaeaea;
+}
+
+#contenedor{
+    width: 1500px;
+    margin: auto;
+}
+
+/* inicio del slider */
+
+#slider{
+    margin: auto;
+    background-color: white;
+    width: 550px;
+    padding: 5px 460px;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.slider {
+
+    position: relative;
+    width: 700px;
+    height: 300PX;
+
+}
+
+ul.slider li{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 550px;
+    height: 300px;
+    background-color: white;
+    transition: opacity .5s;
+}
+
+ul.slider li img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ul.slider li:first-child{
+    opacity: 1;
+}
+
+/* propiedades del menu */
+
+.menu, .slider{
+    text-align: center;
+    margin: 20px;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: gray;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+ul.slider li:target{
+    opacity: 1;
+}
+
+/* fin del slider */
+
+header{
+    width: 1500px;
+    height: 100px;
+    margin-top: 10px;
+    background-color:#112d4e;
+    
+}
+header h1{
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+h1{
+
+    text-align: center;
+    line-height: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+h2{
+    font-style: italic;
+    text-shadow: 2px 2px 4px #000000;
+    line-height: 50px;
+}
+
+p{
+    font-style: italic;
+}
+
+article{
+    padding: 1rem;
+}
+
+nav{
+    text-align: center;
+    background: #f08a5d;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+    
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    color: white; 
+}
+
+li a:hover{
+    color:black;
+}
+.section {
+    width: 1200px;
+    height: 1750px;
+    background-color: white;
+    float: left;
+    /* margin-top: 30px; */
+}
+
+article p, h2{
+    width: 70%;
+    float: left;
+    font-size: 25px;
+    padding: 3px;
+}
+
+article img{
+    width: 25%;
+    float: right;
+    height: 15rem;
+}
+
+.imagpequeña{
+    height: 11rem;
+}
+
+aside {
+    width: 285px; 
+    height: 1750px;
+    background-color:white;
+    float: left;
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 10px;   
+    font-size: 20px;
+    
+}
+
+#principal2{
+
+    margin-top: 10px;
+}
+
+footer{
+    margin-top: 10px;
+    clear: both;
+    height: 220px;
+    background: #f08a5d;
+}
+footer h3{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    text-shadow: 2px 2px 4px #000000;
+    line-height: 50px;
+    font-size: 25px;
+    
+}
+
+
+
+/* idiomas */
+
+#contenedor2{
+    width: 1500px;
+    margin: auto;
+}
+
+#section2{
+    width: 1500px;
+}
+
+#contenedor2 h2{
+    font-style: italic;
+    text-shadow: 2px 2px 4px #000000;
+    line-height: 50px;
+}
+
+#contenedor2 p{
+    font-style: italic;
+}
+
+/*CSS DE CURSOS*/
+.containermain{
+    width: 100%;
+    max-width: 1380px;
+    margin: auto;
+}
+.containermain img{
+    width: 400px;
+    float: left;
+    margin-right: 20px; 
+}
+.containermain p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 19px;
+    color: #30475e;
+    padding: 5px 0px;
+    width: 60%;
+    
+}
+.h1s{
+    padding: 20px;
+    font-size: 35px;
+    text-align:left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #cbaf87;
+
+}
+
+p{
+    font-style: italic;
+}
+
+/*FORMULARIO DE CONTACTO & PAGO*/ 
+.container .form .form-header .form-title{
+    font-family: 'Lobster', Georgia, Times, serif;
+    color: #f08a5d;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px 0px;
+}
+.container .form .form-header .form-title span{
+    color: white;
+}
+.container .form {
+    background: #112d4e;
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    padding: 30px 35px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.container .form .form-label{
+    display: block;
+    color:white;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+    
+}
+.container .form .form-input, .form-textarea{
+    background: #ffeadb;
+    font-family: 'Lobster', Georgia, Times, serif;
+    border: none;
+    outline: none;
+    border-bottom: 4px solid #ff851b;
+    width: 100%;
+    padding: 12px 0px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+.container .form .form-input, .form-textarea{
+    resize: vertical;
+    min-height: 20px;
+}
+
+.container .form .btn-submit{
+    width: 100%;
+    font-family: monospace;
+    outline: none;
+    background: #ff851b;
+    font-size: 25px;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+}
+
+section a{
+    text-decoration:none;
+    font-weight:600;
+    font-size:20px;
+    color:#ffffff;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:#ff851b;
+}
+
+#boton{
+    padding-top: 1rem;
+    text-align: center;
+}
